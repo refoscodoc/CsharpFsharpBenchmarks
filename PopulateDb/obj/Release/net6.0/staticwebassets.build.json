@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NNrOsDExO0r56d1tIN1IgafSLLpEBR0d0PuCdURb2jc=",
+  "Source": "PopulateDb",
+  "BasePath": "_content/PopulateDb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
