@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "4CUnGmyR5Au4Wr1hP+Zkz3KWEO3Qyv8Y8CThdJqJA8c=",
+  "Source": "bf1e64bd-690e-4a19-a6b6-019761f4a8d1",
+  "BasePath": "_content/bf1e64bd-690e-4a19-a6b6-019761f4a8d1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\2133965\\source\\repos\\CsharpFsharpBenchmarks\\CSharp\\CSharp.csproj",
+      "Version": 2,
+      "Source": "CSharp",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -6158,26 +6158,27 @@
     ]
   },
   "packageFolders": {
-    "/home/alberto/.nuget/packages/": {}
+    "C:\\Users\\2133965\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alberto/Documents/C Sharp/CsharpFsharpDifferences/CSharp/CSharp.csproj",
+      "projectUniqueName": "C:\\Users\\2133965\\source\\repos\\CsharpFsharpBenchmarks\\CSharp\\CSharp.csproj",
       "projectName": "CSharp",
-      "projectPath": "/home/alberto/Documents/C Sharp/CsharpFsharpDifferences/CSharp/CSharp.csproj",
-      "packagesPath": "/home/alberto/.nuget/packages/",
-      "outputPath": "/home/alberto/Documents/C Sharp/CsharpFsharpDifferences/CSharp/obj/",
+      "projectPath": "C:\\Users\\2133965\\source\\repos\\CsharpFsharpBenchmarks\\CSharp\\CSharp.csproj",
+      "packagesPath": "C:\\Users\\2133965\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\2133965\\source\\repos\\CsharpFsharpBenchmarks\\CSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/alberto/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\2133965\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/avalonia-ci/api/v2": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
@@ -6230,7 +6231,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

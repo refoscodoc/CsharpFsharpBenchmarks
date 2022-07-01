@@ -1,13 +1,13 @@
 ``` ini
 
-BenchmarkDotNet=v0.13.1, OS=garuda 
-AMD Ryzen 7 3700X, 1 CPU, 16 logical and 8 physical cores
+BenchmarkDotNet=v0.13.1, OS=Windows 10.0.19042.1766 (20H2/October2020Update)
+AMD Ryzen 5 PRO 3500U w/ Radeon Vega Mobile Gfx, 1 CPU, 8 logical and 4 physical cores
 .NET SDK=6.0.102
-  [Host]     : .NET 6.0.2 (6.0.222.11801), X64 RyuJIT
-  DefaultJob : .NET 6.0.2 (6.0.222.11801), X64 RyuJIT
+  [Host]     : .NET 6.0.2 (6.0.222.6406), X64 RyuJIT  [AttachedDebugger]
+  DefaultJob : .NET 6.0.2 (6.0.222.6406), X64 RyuJIT
 
 
 ```
-|                         Method |     Mean |    Error |   StdDev |    Gen 0 | Allocated |
-|------------------------------- |---------:|---------:|---------:|---------:|----------:|
-| CSharpModifyCustomersImmutable | 785.1 ms | 90.86 ms | 262.1 ms | 500.0000 |     46 MB |
+|                         Method |     Mean |   Error |  StdDev | Allocated |
+|------------------------------- |---------:|--------:|--------:|----------:|
+| CSharpModifyCustomersImmutable | 101.4 ms | 2.80 ms | 8.27 ms |      96 B |

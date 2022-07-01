@@ -1,4 +1,5 @@
 using BenchmarkDotNet.Attributes;
+using System.Collections.Immutable;
 
 namespace CSharp.ListsTests;
 
@@ -15,12 +16,13 @@ public class ListTest
 
     private static bool[] booleans = new[] {true, false};
     
-    List<Customer> _customers = new();
+    ImmutableList<Customer> customers = CSharpGenerateCustomersImmutable().ToImmutableList<Customer>();
 
-    public void CSharpGenerateCustomersImmutable()
+    public static List<Customer> CSharpGenerateCustomersImmutable()
     {
         var numberToGenerate = 1000000;
         var random = new Random(10);
+        List<Customer> _customers = new List<Customer>();
 
         for (int i = 0; i < numberToGenerate; i++)
         {
@@ -33,37 +35,16 @@ public class ListTest
                 CustomerSince = DateTime.Today.AddMonths(-random.Next(0, 121))
             });
         }
+
+        return _customers;
     }
 
-    // public class PerformanceTestsImmutableList
-    // {
-    //     List<Customer> _customers = new();
-    //
-    //     public void CSharpGenerateCustomersImmutable()
-    //     {
-    //         var numberToGenerate = 1000000;
-    //         var random = new Random(10);
-    //
-    //         for (int i = 0; i < numberToGenerate; i++)
-    //         {
-    //             _customers.Add(new Customer
-    //             {
-    //                 Id = i,
-    //                 Age = random.Next(18, 100),
-    //                 Name = names[random.Next(0, names.Length)],
-    //                 IsVip = booleans[random.Next(0, booleans.Length)],
-    //                 CustomerSince = DateTime.Today.AddMonths(-random.Next(0, 121))
-    //             });
-    //         }
-    //     }
-
-        [Benchmark]
-        [ArgumentsSource(nameof(_customers))]
+    [Benchmark]
+        [ArgumentsSource(nameof(customers))]
         public void CSharpModifyCustomersImmutable()
-        {
-            CSharpGenerateCustomersImmutable();
+        {            
             var today = DateTime.Today;
-            foreach (var customer in _customers)
+            foreach (var customer in customers)
             {
                 if (today.Subtract(customer.CustomerSince).Days > 365*2)
                 {

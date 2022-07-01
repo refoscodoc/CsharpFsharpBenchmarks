@@ -4,21 +4,21 @@
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/alberto/.nuget/packages/</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/alberto/.nuget/packages/</NuGetPackageFolders>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\2133965\.nuget\packages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.1</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="/home/alberto/.nuget/packages/" />
+    <SourceRoot Include="C:\Users\2133965\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.diagnostics.tracing.traceevent/2.0.61/build/Microsoft.Diagnostics.Tracing.TraceEvent.props" Condition="Exists('$(NuGetPackageRoot)microsoft.diagnostics.tracing.traceevent/2.0.61/build/Microsoft.Diagnostics.Tracing.TraceEvent.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.diagnostics.tracing.traceevent\2.0.61\build\Microsoft.Diagnostics.Tracing.TraceEvent.props" Condition="Exists('$(NuGetPackageRoot)microsoft.diagnostics.tracing.traceevent\2.0.61\build\Microsoft.Diagnostics.Tracing.TraceEvent.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/home/alberto/.nuget/packages/microsoft.codeanalysis.analyzers/2.6.1</PkgMicrosoft_CodeAnalysis_Analyzers>
-    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">/home/alberto/.nuget/packages/fsharp.core/6.0.1</PkgFSharp_Core>
-    <PkgBenchmarkDotNet_Annotations Condition=" '$(PkgBenchmarkDotNet_Annotations)' == '' ">/home/alberto/.nuget/packages/benchmarkdotnet.annotations/0.13.1</PkgBenchmarkDotNet_Annotations>
-    <PkgBenchmarkDotNet Condition=" '$(PkgBenchmarkDotNet)' == '' ">/home/alberto/.nuget/packages/benchmarkdotnet/0.13.1</PkgBenchmarkDotNet>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\2133965\.nuget\packages\microsoft.codeanalysis.analyzers\2.6.1</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\2133965\.nuget\packages\fsharp.core\6.0.1</PkgFSharp_Core>
+    <PkgBenchmarkDotNet_Annotations Condition=" '$(PkgBenchmarkDotNet_Annotations)' == '' ">C:\Users\2133965\.nuget\packages\benchmarkdotnet.annotations\0.13.1</PkgBenchmarkDotNet_Annotations>
+    <PkgBenchmarkDotNet Condition=" '$(PkgBenchmarkDotNet)' == '' ">C:\Users\2133965\.nuget\packages\benchmarkdotnet\0.13.1</PkgBenchmarkDotNet>
   </PropertyGroup>
 </Project>
