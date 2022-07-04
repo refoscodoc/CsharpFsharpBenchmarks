@@ -2,6 +2,7 @@
 using BenchmarkDotNet.Running;
 using CSharp.ListsTests;
 using CSharp.SpanTests;
+using static CSharp.SpanTests.SpanTest;
 
 namespace Benchmarks
 {
@@ -10,8 +11,8 @@ namespace Benchmarks
         static void Main(string[] args)
         {
             // BenchmarkRunner.Run<BenchmarkCsharp>();
-            BenchmarkRunner.Run<ListTest>();
-        }
+            // BenchmarkRunner.Run<ListTest>();
+            BenchmarkRunner.Run<SymbolicUtils>();        }
     }
 
     [MemoryDiagnoser()]

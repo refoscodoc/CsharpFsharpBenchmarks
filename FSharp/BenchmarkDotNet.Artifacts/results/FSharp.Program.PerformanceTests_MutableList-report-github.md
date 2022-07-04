@@ -8,6 +8,6 @@ AMD Ryzen 5 PRO 3500U w/ Radeon Vega Mobile Gfx, 1 CPU, 8 logical and 4 physical
 
 
 ```
-|                         Method |     Mean |    Error |   StdDev | Allocated |
-|------------------------------- |---------:|---------:|---------:|----------:|
-| FSharp_ModifyCustomers_Mutable | 302.2 ns | 14.60 ns | 43.04 ns |         - |
+|                         Method |     Mean |   Error |   StdDev | Allocated |
+|------------------------------- |---------:|--------:|---------:|----------:|
+| FSharp_ModifyCustomers_Mutable | 322.7 ns | 7.82 ns | 22.57 ns |         - |

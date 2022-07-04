@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b91c787d-cff7-4171-95b6-eeb28126d1d4": {
+      "ProjectGuid": "b91c787d-cff7-4171-95b6-eeb28126d1d4",
+      "DisplayName": "FSharp",
+      "ColorIndex": 0
+    },
+    "bbaaec76-cc6b-4664-836e-7477f09d8fb2": {
+      "ProjectGuid": "bbaaec76-cc6b-4664-836e-7477f09d8fb2",
+      "DisplayName": "Benchmarks",
+      "ColorIndex": 1
+    },
+    "6d2a0489-5e72-4e13-b188-c0c79faf9fc1": {
+      "ProjectGuid": "6d2a0489-5e72-4e13-b188-c0c79faf9fc1",
+      "DisplayName": "CSharp",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

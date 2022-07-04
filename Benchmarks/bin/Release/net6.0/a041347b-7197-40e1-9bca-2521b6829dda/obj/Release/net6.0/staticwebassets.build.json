@@ -1,0 +1,34 @@
+{
+  "Version": 1,
+  "Hash": "pmDVye3GIz6v2YN4h5OTSWqyukPZu8ua8oIXfqyA1d4=",
+  "Source": "a041347b-7197-40e1-9bca-2521b6829dda",
+  "BasePath": "_content/a041347b-7197-40e1-9bca-2521b6829dda",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\2133965\\source\\repos\\CsharpFsharpBenchmarks\\CSharp\\CSharp.csproj",
+      "Version": 2,
+      "Source": "CSharp",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    },
+    {
+      "Identity": "C:\\Users\\2133965\\source\\repos\\CsharpFsharpBenchmarks\\FSharp\\FSharp.fsproj",
+      "Version": 2,
+      "Source": "FSharp",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

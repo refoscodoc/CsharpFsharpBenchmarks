@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "eIFn6Q/xqDAoR4CspQukwkGbj2ybVwsCRSeomIUAoZzO9Leecj5NM6rloIjZoblfs5NkRw2nUZQXg6wXWeF9/Q==",
+  "dgSpecHash": "4hrHduzlSDzGEn/klWpUVu9F/AhK8EnB75b8hRS5cq8X1WQPBfZ5xPik28nOy84Yv2UWq0y0nGpaaCQWmRq8ZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\2133965\\source\\repos\\CsharpFsharpBenchmarks\\Benchmarks\\Benchmarks.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2133965\\.nuget\\packages\\benchmarkdotnet\\0.13.1\\benchmarkdotnet.0.13.1.nupkg.sha512",
     "C:\\Users\\2133965\\.nuget\\packages\\benchmarkdotnet.annotations\\0.13.1\\benchmarkdotnet.annotations.0.13.1.nupkg.sha512",
     "C:\\Users\\2133965\\.nuget\\packages\\commandlineparser\\2.4.3\\commandlineparser.2.4.3.nupkg.sha512",
+    "C:\\Users\\2133965\\.nuget\\packages\\fsharp.core\\6.0.1\\fsharp.core.6.0.1.nupkg.sha512",
     "C:\\Users\\2133965\\.nuget\\packages\\iced\\1.8.0\\iced.1.8.0.nupkg.sha512",
     "C:\\Users\\2133965\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.6.1\\microsoft.codeanalysis.analyzers.2.6.1.nupkg.sha512",
     "C:\\Users\\2133965\\.nuget\\packages\\microsoft.codeanalysis.common\\2.10.0\\microsoft.codeanalysis.common.2.10.0.nupkg.sha512",
